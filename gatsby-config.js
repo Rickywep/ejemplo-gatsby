@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: "gatsby-source-strapi",
       options: {
-        apiURL: "https://salty-shelf-02925.herokuapp.com/",
+        apiURL: "https://salty-shelf-02925.herokuapp.com",
         contentTypes: [
           // Lista de tipos de contenido que tenemos en Strapi, en singular
           "articulo"
